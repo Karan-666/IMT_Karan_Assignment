@@ -9,7 +9,7 @@ and all the exceptions have been handled.
 Technology Stack:
 This API is built using the following technology stack:
 Spring Boot
-JPA (Hibernate)
+JPA (Hibernate) 
 MySQL
 
 Setting up the API:
