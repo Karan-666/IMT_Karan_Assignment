@@ -30,27 +30,27 @@ API Endpoints
 The following are the API endpoints available:
 
 Clients:
-i. GET /api/clients: Fetch all clients.
-ii. GET /api/clients/{id}: Fetch a specific client by ID.
-iii. POST /api/clients: Create a new client.
-iv. PUT /api/clients/{id}: Update a client's information.
-v. DELETE /api/clients/{id}: Delete a client.
-vi. GET /api/clients/{id}/policy-count: Fetch the total number of policies holded by a client by client ID
+* GET /api/clients: Fetch all clients.
+*  GET /api/clients/{id}: Fetch a specific client by ID.
+*  POST /api/clients: Create a new client.
+*  PUT /api/clients/{id}: Update a client's information.
+*  DELETE /api/clients/{id}: Delete a client.
+*  GET /api/clients/{id}/policy-count: Fetch the total number of policies holded by a client by client ID
 
 b. Insurance Policies:
-i. GET /api/policies: Fetch all insurance policies.
-ii. GET /api/policies/{id}: Fetch a specific insurance policy by ID.
-iii. POST /api/policies: Create a new insurance policy.
-iv. PUT /api/policies/{id}: Update an insurance policy.
-v. DELETE /api/policies/{id}: Delete an insurance policy.
-vi. GET /api/policies/{id}/claim-data: Fetch the information of claim from the policy ID (Policy number)
+* GET /api/policies: Fetch all insurance policies.
+* GET /api/policies/{id}: Fetch a specific insurance policy by ID.
+* POST /api/policies: Create a new insurance policy.
+* PUT /api/policies/{id}: Update an insurance policy.
+* DELETE /api/policies/{id}: Delete an insurance policy.
+* GET /api/policies/{id}/claim-data: Fetch the information of claim from the policy ID (Policy number)
 
 c. Claims:
-i. GET /api/claims: Fetch all claims.
-ii. GET /api/claims/{id}: Fetch a specific claim by ID.
-iii. POST /api/claims: Create a new claim.
-iv. PUT /api/claims/{id}: Update a claim's information.
-v. DELETE /api/claims/{id}: Delete a claim
+* GET /api/claims: Fetch all claims.
+* GET /api/claims/{id}: Fetch a specific claim by ID.
+* POST /api/claims: Create a new claim.
+* PUT /api/claims/{id}: Update a claim's information.
+* DELETE /api/claims/{id}: Delete a claim
 
 
 Conclusion
