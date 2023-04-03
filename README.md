@@ -29,7 +29,7 @@ use Postman or any other REST client to test the API endpoints.
 API Endpoints
 The following are the API endpoints available:
 
-Clients:
+a. Clients:
 * GET /api/clients: Fetch all clients.
 *  GET /api/clients/{id}: Fetch a specific client by ID.
 *  POST /api/clients: Create a new client.
